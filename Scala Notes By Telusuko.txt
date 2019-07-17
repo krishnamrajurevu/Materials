@@ -1,0 +1,42 @@
+1. Scalable
+2. hadoop(Java) and spark(scala)
+3. It is concurency
+4. Scala is functional programming
+5. Less coding
+6. Twitter perviously used ruby and letter changed java and scala
+7. Scala can use in java and vice versa
+8. Type safty company providing scala language
+
+1. Scala works on JVM
+2. Object Oriented Meets Functional
+3. No interfaces in Scala. Instead of interfaces we use TRAITS
+4. Add scala  libraries in Eclipse
+   http://download.scala-ide.org/sdk/lithium/e47/scala212/stable/site
+5. Scala maintain concurency
+6. var means we can chage variable value but val can't change value of variable
+	println("Welcome World")
+  var num :Int =7;
+  println(num)
+  num=num+num;
+  println(num)
+  num=num.+(num);
+  println(num)
+  val constant : Int =10
+  println(constant)
+  //constant=11;
+  
+7. Scala support operator overloading
+	val num :Int =10
+	num=num+num or num=num.+(num);
+8. Create classes using case keyword before class keyword
+9. Bydefault constroctor will create and setters and getters
+	 case class Student(var rollNo: Int=10 ,var name :String="Krishnam" ,var marks : Int=300){
+    
+  }
+  var s1= Student(20);                            //> s1  : Demo2.Student = Student(20,Krishnam,300)
+  
+  
+
+
+
+

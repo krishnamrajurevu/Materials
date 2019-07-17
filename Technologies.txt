@@ -1,0 +1,16 @@
+1. Scala
+2. Jira
+3. Jenkins
+4. Bitbucket 
+5. Marthon
+6. JfrogArtifact
+7. Agile
+8. Docker & Virtual Machine
+9. Cassandra
+10.Mesos
+11.Zookeeper
+12.Consul
+13.Egnix
+14.Metrix
+15.Micro Services
+16.Kafka
