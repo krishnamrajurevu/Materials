@@ -1,0 +1,90 @@
+Install Git 
+---------------
+sudo apt-get update
+sudo apt-get -f dist-upgrade
+sudo apt-get install git
+git --version
+
+
+Install java
+-------------
+sudo apt-get install openjdk-8-jdk
+java -version
+javac -version
+sudo apt-get install openjdk-8-jr
+
+Install Docker
+--------------
+
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+sudo apt-get install docker.io
+sudo apt-get install docker-compose
+
+if you want remove
+-----------------
+which docker-compose
+
+then it will return path like:/usr/bin/docker-compose
+
+then remove it:
+
+sudo rm -rf /usr/bin/docker-compose
+
+sudo apt-get remove docker-compose
+
+sudo curl -L https://github.com/docker/compose/releases/download/2.0-rc1/docker-compose-`uname -s`-`uname -m` -o /usr/bin/docker-compose
+chmod +x /usr/bin/docker-compose
+
+Install virtual box
+--------------------
+sudo apt-get install virtualbox
+sudo apt update
+
+docker-machine create --driver virtualbox default
+docker-machine start default
+
+cp /home/krevu/Downloads/boot2docker.iso /home/krevu/.docker/machine/cache/
+docker-machine env default
+eval $(docker-machine env default)
+
+
+Install leiningen 
+-------------------
+Download the lein scrip
+Move the lein script to the user programs directory
+Add execute permissions to the lein script
+
+
+wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+chmod a+x lein
+sudo mv lein /usr/local/bin
+
+clone project
+-----------------
+git clone https://stash.qvantel.net/scm/rubik/document-management.git
+
+go to document-management/dev and run build.sh
+
+document-management/dev$ sh build.sh
+document-management/dev$ ./start.sh manager
+
+
+Scala and SBT
+---------------
+
+sudo apt-get remove scala-library scala
+sudo wget www.scala-lang.org/files/archive/scala-2.11.8.deb
+sudo dpkg -i scala-2.11.8.deb
+scala -version
+echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+sudo apt-get update
+sudo apt-get install sbt
+
+https://confluence.jetbrains.com/display/IDEADEV/IDEA+2019.1+EAP
+
+
+
+git config --global user.name "Krishnam Raju Revu"
+git config --global user.email "krishnamraju.revu@qvantel.com"
