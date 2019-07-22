@@ -1,0 +1,23 @@
+1. Can we intract with db directly or through api's only
+2. How to dibug project,navigate code
+3. How to diploy and release
+4. How uploaded file storing in cassandra and how to what are the table using TDM
+5. How to access database
+6. Dif between methods and service functions
+7. How to check api's in browser
+8. Docker and consul
+9. How other systems using our document manager like through apis or any services
+10. what are the types of users can access our project
+11. Documemt storage and manager are for only admin or any other user can access
+12. What is Qmark markup
+13. How To Use Development API
+14. How to write test cases and how to do testing
+15. Difference between templates and snippet
+16. Difference between simple startegy and network startegy
+17. What is system spec and stand box
+18. CI passed and comp passed
+19. what is swift
+20. what is fawk
+
+
+
